@@ -26,10 +26,13 @@ A simple blogging platform built with PHP and MySQL.
 
 3. Update database connection settings in db.php:
 
--$servername = "localhost";
--$username = "root";
--$password = "";
--$dbname = "blogdb";
+$servername = "localhost";
+
+$username = "root";
+
+$password = "";
+
+$dbname = "blogdb";
 
 4. Place the project files in your web server root (e.g., htdocs for XAMPP).
 
@@ -37,36 +40,36 @@ A simple blogging platform built with PHP and MySQL.
 
 ## Usage
 
--Register or create an admin user (via create_admin.php).
+- Register or create an admin user (via create_admin.php).
 
--Login and start creating posts.
+- Login and start creating posts.
 
--Manage posts with edit and delete options.
+- Manage posts with edit and delete options.
 
 ## Folder Structure
 
--index.php - Homepage listing posts
+- index.php - Homepage listing posts
 
--create_post.php - Form to add new posts
+- create_post.php - Form to add new posts
 
--edit_post.php - Edit existing posts
+- edit_post.php - Edit existing posts
 
--delete_post.php - Delete posts
+- delete_post.php - Delete posts
 
--db.php - Database connection
+- db.php - Database connection
 
--uploads/ - Folder to store uploaded images
+- uploads/ - Folder to store uploaded images
 
 ## Security Notes
 
--Uses prepared statements to prevent SQL injection
+- Uses prepared statements to prevent SQL injection
 
--Basic input validation on forms
+- Basic input validation on forms
 
--Avoid uploading unsafe file types
+- Avoid uploading unsafe file types
 
 ## License
 
--This project is open-source and free to use.
+- This project is open-source and free to use.
 
 
