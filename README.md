@@ -20,7 +20,7 @@ A simple blogging platform built with PHP and MySQL.
 
 1. Clone the repository:
 
-   -git clone https://github.com/JosephJonathanFernandes/Simple-Blog-PHP.git
+   git clone https://github.com/JosephJonathanFernandes/Simple-Blog-PHP.git
    
 2. Create a MySQL database (e.g., blogdb) and import the database.sql file (if you have one) or run the SQL commands to create tables.
 
