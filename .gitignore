@@ -1,0 +1,19 @@
+# Ignore uploaded images folder
+uploads/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment or config files that might contain secrets
+.env
+
+# Ignore logs
+*.log
+
+# Ignore vendor folder (if you use composer)
+vendor/
+
+# Ignore IDE/editor settings (optional)
+*.sublime-project
+*.sublime-workspace
